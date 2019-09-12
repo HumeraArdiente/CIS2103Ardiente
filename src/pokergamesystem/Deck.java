@@ -24,7 +24,7 @@ public class Deck {
         
         for(int x = 1; x <= 4; x++){
             for(int y = 1; y <= 13; y++){
-                cards.add(new Card (a, b));
+                cards.add(new Cards(x, y));
             }
         }
         int size;

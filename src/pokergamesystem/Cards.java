@@ -39,8 +39,4 @@ public class Cards
         return ranks[_rank];
     }
     
-    public static flip()
-    {
-        
-    }
 }
