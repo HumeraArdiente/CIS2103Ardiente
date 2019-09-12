@@ -5,6 +5,7 @@
  */
 
 package pokergamesystem;
+
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -12,6 +13,7 @@ import java.util.Random;
  *
  * @author ardientehu_cis21035
  */
-public class NewClass {
+public class Deck {
+    
     
 }
