@@ -9,14 +9,14 @@ package pokergamesystem;
  *
  * @author ardientehu_cis21035
  */
-public class Cards 
+public class Card
 {
     
     private short suit, rank;
     private static String[] suits = {"Spades", "Hearts", "Clubs", "Diamonds"};
     private static String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
     
-    Cards(short suit, short rank){
+    Card(short suit, short rank){
         this.rank = rank;
         this.suit = suit;
     }
@@ -29,7 +29,7 @@ public class Cards
         return suit;
     }
     
-    public String toString()
+    public @Override String toString()
     {
         return ranks[rank] + " of " + suits[suit];
     }

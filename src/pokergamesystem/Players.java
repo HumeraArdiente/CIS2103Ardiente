@@ -12,8 +12,6 @@ package pokergamesystem;
  */
 public class Players {
     
-    private String name;
-    private int chips;
     
     public void addHumanPlayer()
     {
@@ -25,7 +23,7 @@ public class Players {
         
     }
     
-    public int bet(int amount)
+    public void bet(int amount)
     {
         
     }
