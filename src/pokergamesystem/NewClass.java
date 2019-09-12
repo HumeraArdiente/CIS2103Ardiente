@@ -5,18 +5,13 @@
  */
 
 package pokergamesystem;
+import java.util.ArrayList;
+import java.util.Random;
+
 /**
  *
  * @author ardientehu_cis21035
  */
-public class PokerGameSystem {
-    
-    
-    public static void main(String[] args) {
-        PokerGameSystem game = new PokerGameSystem();
-        Cards cards = new Cards();
-        
-    }
-
+public class NewClass {
     
 }
