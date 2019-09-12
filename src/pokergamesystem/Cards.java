@@ -16,7 +16,7 @@ public class Cards
     private static String[] suits = {"Spades", "Hearts", "Clubs", "Diamonds"};
     private static String[] ranks = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"};
     
-    public void getCard(short suit, short rank){
+    Cards(short suit, short rank){
         this.rank = rank;
         this.suit = suit;
     }
@@ -37,5 +37,10 @@ public class Cards
     public static String rankAsString(int _rank)
     {
         return ranks[_rank];
+    }
+    
+    public static flip()
+    {
+        
     }
 }

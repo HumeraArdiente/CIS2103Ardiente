@@ -11,10 +11,7 @@ package pokergamesystem;
  */
 public class PokerGameSystem {
     
-    
-    public static void main(String[] args) {
-        PokerGameSystem game = new PokerGameSystem();
-        Cards cards = new Cards();
+    public static void main(String[] args)  {
         
     }
 

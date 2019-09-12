@@ -15,12 +15,49 @@ public class Players {
     private String name;
     private int chips;
     
-    public void addHumanPlayer(){
+    public void addHumanPlayer()
+    {
         
     }
     
-    public void addComputerPlayer(){
+    public void addComputerPlayer()
+    {
         
+    }
+    
+    public int bet(int amount)
+    {
+        
+    }
+    
+    public void check()
+    {
+        
+    }
+    
+    public void call()
+    {
+        
+    }
+    
+    public void fold()
+    {
+    
+    }
+    
+    public void clear()
+    {
+        
+    }
+    
+    public void raise(int amount)
+    {
+        
+    }
+    
+    Players()
+    {
+    
     }
     
 }
